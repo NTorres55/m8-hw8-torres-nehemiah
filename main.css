@@ -1,12 +1,12 @@
 /* Main Menu Styling */
 .main-menu {
-  display: flex;
+  display: inline-flex;
 }
 .main-menu:hover .sub-menu {
   display: block;
 }
 .main-menu li {
-  width: 33%;
+  width: 100%;
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
