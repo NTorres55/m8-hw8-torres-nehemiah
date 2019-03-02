@@ -2,6 +2,9 @@
 .main-menu {
   display: flex;
 }
+.main-menu:hover .sub-menu {
+  display: block;
+}
 .main-menu li {
   width: 33%;
   text-align: center;
@@ -16,10 +19,15 @@
   color: #fff;
   font-size: 18px;
 }
+
+
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
+  display: none;
+  z-index: 1;
+  position: absolute;
 }
 .sub-menu li {
   display: block;
