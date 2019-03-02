@@ -14,13 +14,11 @@
 }
 .main-menu-labels {
   margin: 0;
-  padding: 15px 0;
+  padding: 15px 25px;
   background-color: #08254f;
   color: #fff;
   font-size: 18px;
 }
-
-
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
