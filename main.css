@@ -4,6 +4,7 @@
 }
 .main-menu:hover .sub-menu {
   display: block;
+  opacity: 100;
 }
 .main-menu li {
   width: 100%;
@@ -18,14 +19,20 @@
   background-color: #08254f;
   color: #fff;
   font-size: 18px;
+  transition: .5s;
+}
+.main-menu-labels:hover {
+  background-color: #43548e;
+  transition-timing-function: ease-in-out;
 }
 /* Sub Menu Styling */
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
-  display: none;
+  opacity: 0;
   z-index: 1;
   position: absolute;
+  transition: opacity 2s;
 }
 .sub-menu li {
   display: block;
@@ -33,4 +40,10 @@
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+  transition: .4s;
+}
+.sub-menu li:hover {
+  color: white;
+  background-color: #3c7cc6;
+  transition-timing-function: ease-in-out;
 }
